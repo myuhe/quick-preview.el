@@ -1,0 +1,34 @@
+* Quick-Preview
+ =Quick-preview= is an application for previewing file using external tool.
+
+ You can choose external tool below, 
+
+ - [[https://en.wikipedia.org/wiki/Sushi_(software)][Sushi]]
+ - [[http://gloobus.net/gloobus-preview/][Gloobus preview]]
+ - [[https://en.wikipedia.org/wiki/Quick_Look][Quick Look]]
+
+ The default value is set to  =Sushi=.
+* Web page preview
+  
+  [[./web.png]]
+
+* Image preview
+
+  [[./img.png]]
+
+* Command Overview
+** quick-preview-at-point
+   Preview file from around point if it exists.
+   Preview refer to  =quick-preview-method=. 
+
+* Setting example
+
+#+begin_src elisp
+  (require quick-preview)
+  (setq quick-preview-method 'gloobus)
+
+  ;;Setting for key bindings
+  (global-set-key (kbd "C-c q") 'quick-preview-at-point)
+  (define-key dired-mode-map (kbd "Q") 'quick-preview-at-point)
+#+end_src
+
