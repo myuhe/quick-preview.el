@@ -19,7 +19,7 @@
 * Command Overview
 ** quick-preview-at-point
    Preview file from around point if it exists.
-   =quick-preview-method= decides Preview tool. 
+   =quick-preview-method= decides Preview tool.
 
 * Setting example
 
