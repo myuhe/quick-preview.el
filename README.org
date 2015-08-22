@@ -10,16 +10,16 @@
  The default value is set to  =Sushi=.
 * Web page preview
   
-  [[./web.png]]
+  [[./img/web.png]]
 
 * Image preview
 
-  [[./img.png]]
+  [[./img/image.png]]
 
 * Command Overview
 ** quick-preview-at-point
    Preview file from around point if it exists.
-   Preview refer to  =quick-preview-method=. 
+   =quick-preview-method= decides Preview tool. 
 
 * Setting example
 
