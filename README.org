@@ -3,11 +3,11 @@
 
  You can choose external tool below, 
 
- - [[https://en.wikipedia.org/wiki/Sushi_(software)][Sushi]]
+ - [[https://en.wikipedia.org/wiki/Sushi_(software)][GNOME Sushi]]
  - [[http://gloobus.net/gloobus-preview/][Gloobus preview]]
  - [[https://en.wikipedia.org/wiki/Quick_Look][Quick Look]]
 
- The default value is set to  =Sushi=.
+ For Mac user, The default value is set to  =Quick Look=, For Linux user, set to =GNOME Sushi=.
 * Web page preview
   
   [[./img/web.png]]
