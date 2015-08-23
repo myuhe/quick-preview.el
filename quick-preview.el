@@ -97,4 +97,5 @@
      ((eq quick-preview-method 'quick-look)
       (quick-preview--process filename '("qlmanage" "-p"))))))
 
+(provide 'quick-preview)
 ;;; quick-preview.el ends here
