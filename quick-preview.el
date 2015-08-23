@@ -44,7 +44,7 @@
   :tag "Quick Preview"
   :group 'files)
 
-(defcustom quick-preview-method 'sushi
+(defcustom quick-preview-method (if (eq system-type 'darwin) 'quick-look 'sushi)
   "quick preview tool. select sushi  gloobus or quick-look"
   :group 'quick-preview
   :type `(choice  ,@(mapcar (lambda (c)
