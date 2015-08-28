@@ -1,3 +1,5 @@
+[[http://melpa.org/#/quick-preview][file:http://melpa.org/packages/quick-preview-badge.svg]]
+
 * Quick-Preview
  =Quick-preview= is an application for previewing file using external tool.
 
@@ -8,11 +10,11 @@
  - [[https://en.wikipedia.org/wiki/Quick_Look][Quick Look]]
 
  For Mac user, The default value is set to  =Quick Look=, For Linux user, set to =GNOME Sushi=.
-* Web page preview
+* Web page preview (GNOME Sushi)
   
   [[./img/web.png]]
 
-* Image preview
+* Image preview (GNOME Sushi)
 
   [[./img/image.png]]
 
@@ -32,3 +34,5 @@
   (define-key dired-mode-map (kbd "Q") 'quick-preview-at-point)
 #+end_src
 
+* Related article
+  - [[http://sheephead.homelinux.org/2015/08/23/7322/][ポイント下のファイル/URLをチラ見するquick-preview.elを作りました - sheephead]] (In Japanese)
